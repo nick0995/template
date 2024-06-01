@@ -1,0 +1,25 @@
+{
+  "name": "bcg_insurance",
+  "version": "1.0.0",
+  "description": "BCG insurance client assignment",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start" : "nodemon run server",
+    "server": "node app.js"
+  },
+  "author": "Neeraj Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"PORT": 4001,
+	"base": "/",
+	"databaseSettings": {
+		"host": "mysql",
+		"user": "root",
+		"password": "grazitti@271",
+		"database": "m20",
+		"mysqlPORT": "3306",
+		"connectionLimit": 10
+},
+	"logging": {
+			"level": "info",
+			"console": {
+					"isEnabled": true
+			}
+	},
+	"bcgSharedSecret": "asdsgdjsgkagy34567absab"
+}
